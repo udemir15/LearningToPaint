@@ -1,0 +1,9 @@
+.idea/
+*.pyc
+*.py~
+
+data/*
+*.pkl
+
+output/*
+*.mp4
