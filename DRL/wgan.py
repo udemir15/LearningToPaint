@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.nn.utils.weight_norm as weightNorm
 from utils.util import *
 
-from utils.utils import hard_update, soft_update
+from utils.util import hard_update, soft_update
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 dim = 128
