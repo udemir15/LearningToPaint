@@ -9,7 +9,7 @@ from DRL.ddpg import decode
 from utils.util import *
 from PIL import Image
 from torchvision import transforms, utils
-from utils.utils import to_numpy
+from utils.util import to_numpy
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

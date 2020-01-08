@@ -25,7 +25,7 @@ def load_weights():
 
 if __name__ == '__main__':
 
-    writer = TensorBoard("../train_log/")
+    writer = TensorBoard("train_log/")
     device = torch.cuda.is_available()
 
     objective = nn.MSELoss()
